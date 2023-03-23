@@ -1,0 +1,23 @@
+.navigation {
+    padding: 10px;
+    margin-bottom: 30px;
+    list-style: none;
+    font-size: 19px;
+}
+
+.navigation__item {
+    margin: 5px;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: hsl(35, 100%, 45%);
+}
+
+.nav__link:hover {
+    color: hsl(35, 100%, 55%);
+}
+
+.navigation__smallText {
+    font-size: 12px;
+}

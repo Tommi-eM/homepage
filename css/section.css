@@ -1,0 +1,59 @@
+.section {
+    padding: 10px;
+}
+
+.section__subheader {
+    color: hsl(35, 100%, 45%);
+}
+
+.section__header {
+    text-align: center;
+    color: hsl(35, 100%, 45%);
+    text-shadow: 1px 2px 5px hsla(39, 100%, 18%, 0.45);
+    border-bottom: 3px solid hsl(35, 100%, 45%);
+    padding-bottom: 10px;
+    margin-bottom: 0;
+}
+
+.section__button {
+    background-color: hsl(35, 100%, 45%);
+    color: white;
+    padding: 10px;
+    border: 2px solid hsl(41, 95%, 41%);
+    border-radius: 13px;
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.section__button:hover {
+    background-color: hsl(35, 100%, 35%);
+    color: hsla(35, 100%, 51%, 0.911);
+}
+
+.section__image {
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+    box-shadow: 4px 4px 9px hsla(39, 100%, 18%, 0.45);
+}
+
+.section__paragraph {
+    line-height: 1.5;
+}
+
+.section__highlighted1 {
+    color: hsl(238, 100%, 50%);
+}
+
+.section__highlighted2 {
+    color: hsl(0, 100%, 50%);
+}
+
+.section__carImage {
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 30px;
+    max-width: 750px;
+    width: 100%;
+}

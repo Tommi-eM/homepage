@@ -1,0 +1,31 @@
+.table {
+    width: 100%;
+    line-height: 2.0;
+    border-collapse: collapse;
+}
+
+.table__caption {
+    margin-top: 3px;
+    font-weight: bold;
+}
+
+.table__cell {
+    border: 1px solid hsl(0, 0%, 80%);
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table__header {
+    background-color: hsl(35, 100%, 45%);
+    color: white;
+    font-weight: normal;
+}
+
+.table__row:nth-child(even) {
+    background: hsl(0, 0%, 100%);
+}
+
+.table__row:hover {
+    background: hsl(0, 4%, 85%);
+}
